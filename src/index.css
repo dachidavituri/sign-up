@@ -1,13 +1,11 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Open+Sans&family=Outfit:wght@500;700&family=Overpass:wght@400;700&family=Poppins:wght@500;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/bg-intro-mobile.png");
+  background-color: var(--primary-pink);
 }
